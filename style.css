@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&family=Libre+Barcode+39+Extended&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+.shop-title {
+    font-family: 'Alien Block', sans-serif;
+    font-size: 65px;
+    color: #0F2697;
+    margin-bottom: 0px;
+}
+.side-barcode {
+    font-family: 'Libre Barcode 39 Extended', system-ui;
+    font-size: 65px;
+    color: #0d2b45;
+    position: fixed;
+    top: 70%;
+    right: 20px;
+    z-index: 10;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}
+body {
+    background-color: #F0E9C7;
+    text-align: center;
+}
+#titletext {
+    color: #990099;
+    font-size: 30px;
+    font-family: 'Syne Tactile', cursive;
+    margin-bottom: 25px;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: #0d2b45 2px solid;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.button:active, .button:focus {
+    outline: 3px solid #0d2b45;
+    transform: scale(1.1);
+}
+
+#b1 { background-color: red; }
+#b2 { background-color: orange; }
+#b3 { background-color: yellow; }
+#b4 { background-color: green; }
+#b5 { background-color: blue; }
+#b6 { background-color: pink; }
+
+#a1 { background-color: white; }
+#a2 { background-color: black; }
+
+#colorswitcher { display: inline-flex; }
+#tshirtswitcher { display: inline-flex; }
+
+#logo {
+    width: 180px;
+    position: absolute;
+    z-index: 2;
+    top: 52%;
+    left: 45%;
+}
+
+#tshirt {
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: 34.7%; 
+}
